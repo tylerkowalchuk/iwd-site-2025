@@ -24,8 +24,13 @@ class Math {
 		return $sum;
 	}
 
-    public static function multiply()($num1, $num2){
+    public static function multiply($num1, $num2){
         $sum = $num1 * $num2;
+        return $sum;
+    }
+
+    public static function sub($num1, $num2){
+        $sum = $num1 - $num2;
         return $sum;
     }
 	
